@@ -1,6 +1,6 @@
 #Libraries
 import pandas as pd
-import plotly.express as px 
+import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 import re
@@ -122,7 +122,7 @@ def clean_code(df1):
 # #Import dataset
 #===========================================
 
-df=pd.read_csv('repos\dataset/train.csv')
+df=pd.read_csv('dataset/train.csv')
 #C:\Users\Cida\repos\dataset
 #df=pd.read_csv('repos\FTC/train.csv')
 

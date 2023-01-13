@@ -86,7 +86,7 @@ def clean_code(df1):
     return df1
 
 #Import Dataset
-df=pd.read_csv('repos\dataset/train.csv')
+df=pd.read_csv('dataset/train.csv')
 #df=pd.read_csv('dataset/train.csv')
 #df=pd.read_csv('repos\FTC/train.csv')
 df1= clean_code(df)
