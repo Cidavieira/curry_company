@@ -1,23 +1,27 @@
-![alt text](https://github.com/Cidavieira/Analytics_House_Rocket/blob/main/image.jpg)
+![alt text](https://github.com/Cidavieira/curry_company/blob/main/image.png)
 # Curry Company
+  
   # Objetivo: 
-  Gerar insights atráves da análise e manipulação dos dados para auxiliar a tomada de decisão pelo time de negócio.
+  A cury company é uma empresa de tecnologia que criou um aplicativo que conecta restaurantes, entregadores e pessoas.
+  O objetivo desse projeto é criar um conjunto de gráficos e/ou tabelas que exibam as métricas da melhor forma possível para o CEO.
+  
   # Questão de Negócio (Bussiness Problem): 
-  ## Responder a duas questões: 
-  1. Quais são os imóveis que a House Rocket deveria comprar e por qual preço? 
-  2. Uma vez o imóvel comprado, qual o melhor momento para vende-lo e por qual preço?
+  ## Separar as métricas de cada stakeholder em três páginas distintas. 
+
+  
   # Premissas de Negócio (Bussiness Assumptions): 
-  Imóveis no periodo frio (meses 12,1,2,3,4,5,) tendem a vender mais barato que no periodo quente (meses 6,7,8,9,10,11) no conjunto de dados analisado, América do Norte.
-  # Planejamento (Solution Strategy) - Entendimento do Negócio: 
-  ## Vou gerar 2 relatórios:
-  1. Relatório com sugestões de compra de imóvel por um valor recomendado. 
-  2. Relatório com as sugestões de venda de um imóvel por um valor recomendado.
+  A análise foi realizada com dados entre 11/02/2022 e 05/04/2022. Marketplace foi o modelo de negócio assumido. As 3 principais visões de negócio foram:
+  1. Visão transação de pedidos.
+  2. Visão Restaurante.
+  3. Visão entregadores.
+ 
   # Planejamento (Solution Strategy) - Ferramentas: 
-  Python 3.8, Pycharm e Jupiter Notebook.
-  # Resultados Financeiros para o Negócio (Business Result): 
-  Criação da coluna Lucro, se todas as recomendações forem seguidas, o lucro da empresa será de  935 milhões de dolares = 935.745.417,0
+  Python 3.8, Jupiter Lab, streamlit e streamlit cloud.
+
+  
   # Conclusão (Conclusions): 
-  O objetivo foi alcançado, é possível ter uma idéia claro dos melhores negócios do portfólio.
-  O Painel pode ser acessado pelo Link https://cidavieira-analytics-house-rocket-home-udtx4t.streamlit.app/
+  O objetivo desse projeto foi atingido.
+  O Painel pode ser acessado pelo Link https://cidavieira-curry-company-home-aglogh.streamlit.app/
+  
   # Próximos Passos (Next Steps To Improve):
-  Adicionar ferramentas de Machine Learning para melhorar as recomendações.
+  Criar novos filtros e adicionar novas visões de negócio
