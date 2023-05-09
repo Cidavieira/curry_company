@@ -1,4 +1,6 @@
 ![alt text](https://github.com/Cidavieira/curry_company/blob/main/image.png)
+# Video Demonstrativo:
+![ressourcesh](https://github.com/Cidavieira/curry_company/blob/main/Video_230509184044.gif)
 # Curry Company
   
   # Objetivo: 
