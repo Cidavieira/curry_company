@@ -8,6 +8,7 @@ import folium
 from PIL import Image 
 from haversine import haversine
 from streamlit_folium import folium_static
+from datetime import datetime
 
 
 st.set_page_config(page_title='Visão Empresa',layout='wide')
@@ -146,19 +147,16 @@ st.sidebar.markdown('# Cury Company')
 st.sidebar.markdown('## Fastest Delivery in Town')
 st.sidebar.markdown("""---""")
 
-st.sidebar.markdown('## Selecione uma data limite')
+#st.sidebar.markdown('## Selecione uma data limite')
 
-date_slider=st.sidebar.slider(
-                  'Até qual valor?',
-                   value='13-04-2022',
-                   min_value='11-02-2022',
-                   max_value='06-04-2022')
-                   #value=pd.datetime(2022,4,13),
-                   #min_value=pd.datetime(2022,2,11),
+#date_slider=st.sidebar.slider(
+                 # 'Até qual valor?',
+                  # value=pd.datetime(2022,4,13),
+                  # min_value=pd.datetime(2022,2,11),
                    #max_value=pd.datetime(2022,4,6),
                    #format='DD-MM-YYYY')
 
-st.sidebar.markdown("""---""")
+#st.sidebar.markdown("""---""")
 
 traffic_options= st.sidebar.multiselect(
     'Quais as condições do trânsito',
